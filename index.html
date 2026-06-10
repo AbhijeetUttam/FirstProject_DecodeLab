@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DecodeLabs | Frontend Project 1</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <div class="logo">Decode<span>Labs</span></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="container hero-content">
+        <p class="hero-label">Batch 2026 · Industrial Training Kit</p>
+        <h1>Frontend<br><span class="accent">Development</span></h1>
+        <p class="hero-sub">Project 1 — Static Webpage Design. Master semantic integrity before building the dynamic web.</p>
+        <a href="#about" class="btn btn-primary">Start Building →</a>
+      </div>
+      <div class="hero-badge">
+        <span>P1</span>
+        <p>Static<br>Webpage</p>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2>The <span class="accent">Objective</span></h2>
+          <p>Step into the role of a Frontend Developer at DecodeLabs. This track is about <strong>Semantic Integrity</strong> — crafting clean, readable layouts through pure markup and styling logic.</p>
+          <p>The frontend is the only part of the system the user ever sees. Build it well.</p>
+          <ul class="checklist">
+            <li>✅ Logical Sitemap defined first</li>
+            <li>✅ Semantic HTML tags — one &lt;h1&gt;</li>
+            <li>✅ External CSS only — DRY principle</li>
+            <li>✅ Grid for macro, Flexbox for micro</li>
+            <li>✅ AVIF/WebP assets with dimensions</li>
+            <li>✅ W3C + Lighthouse audit pass</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <div class="blueprint-card">
+            <div class="blueprint-header">HEADER · NAV</div>
+            <div class="blueprint-hero">HERO SECTION<br><small>min-height: 100vh</small></div>
+            <div class="blueprint-grid-row">
+              <div class="blueprint-cell">IMG<br>TEXT</div>
+              <div class="blueprint-cell">IMG<br>TEXT</div>
+              <div class="blueprint-cell">IMG<br>TEXT</div>
+            </div>
+            <div class="blueprint-footer">FOOTER · CONTACT</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2>Key <span class="accent">Concepts</span></h2>
+        <p class="section-sub">The engineering principles behind this project</p>
+        <div class="skills-grid">
+
+          <article class="skill-card">
+            <div class="skill-icon">IA</div>
+            <h3>Information Architecture</h3>
+            <p>Structure before code. Organize content for findability. Sitemap → Navigation. Minimize cognitive load.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>Semantic HTML</h3>
+            <p>Use <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;footer&gt;</code>. No "div soup". One <code>&lt;h1&gt;</code> per page.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">CSS</div>
+            <h3>CSS Engineering</h3>
+            <p>No inline styles. External files only. DRY principle via BEM. One master.css for all pages.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">⊞</div>
+            <h3>Layout Systems</h3>
+            <p>CSS Grid for 2D macro structure. Flexbox for 1D component alignment. Right tool for the right job.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">A11Y</div>
+            <h3>Accessibility</h3>
+            <p>Alt text on every image. Contrast ratio &gt; 4.5:1. Accessible labels. The web must be perceivable by all.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">QA</div>
+            <h3>Quality Gate</h3>
+            <p>W3C validation — zero errors. Semantic audit. Visual regression — pixel-perfect match to design.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- IPO MODEL SECTION -->
+    <section class="ipo">
+      <div class="container">
+        <h2>The Engineering <span class="accent">Mindset</span></h2>
+        <p class="section-sub">IPO Model: Input → Process → Output</p>
+        <div class="ipo-flow">
+          <div class="ipo-box">
+            <div class="ipo-label">INPUT</div>
+            <p>Assets<br>(Images, Icons, Text)</p>
+          </div>
+          <div class="ipo-arrow">→</div>
+          <div class="ipo-box ipo-process">
+            <div class="ipo-label">PROCESS</div>
+            <p>CSS Engineering<br>(Box Model, Logic)</p>
+          </div>
+          <div class="ipo-arrow">→</div>
+          <div class="ipo-box">
+            <div class="ipo-label">OUTPUT</div>
+            <p>The View<br>(Pixel-Perfect Render)</p>
+          </div>
+        </div>
+        <div class="debug-note">
+          <strong>Debug by isolating the stage:</strong> Corrupted Input? Logical Error? Rendering Failure?
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo">Decode<span>Labs</span></div>
+        <p>Foundations of Visual Architecture &amp; Technical Integrity.</p>
+      </div>
+      <address class="footer-contact">
+        <p>📞 +91 89330 06408</p>
+        <p>✉️ <a href="mailto:decodelabs.tech@gmail.com">decodelabs.tech@gmail.com</a></p>
+        <p>🌐 <a href="http://www.decodelabs.tech" target="_blank" rel="noopener">www.decodelabs.tech</a></p>
+        <p>📍 Greater Lucknow, India</p>
+      </address>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 DecodeLabs · Batch 2026 · Project 1 — Static Webpage Design</p>
+    </div>
+  </footer>
+
+</body>
+</html>
